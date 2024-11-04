@@ -20,6 +20,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+export http_proxy='http://apt:gEYg4Xho@ps-auth:3128'
+export https_proxy='http://apt:gEYg4Xho@ps-auth:3128'
+
 set +e
 usage() {
 	echo "Usage $0 [options] [ iso | ova | memstick | memstickserial | memstickadi | all | none ]"
